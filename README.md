@@ -26,7 +26,7 @@ There are more powerful ML methods for image recognition on Arduino Nano BLE Sen
   
   * Install and open the [Arduino IDE](https://www.arduino.cc/en/main/software) or [Arduino Create](https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a?f=1)
 
-  * In the Arduino IDE open the [CameraKNN.ino](https://blog.arduino.cc/2020/06/18/simple-machine-learning-with-arduino-knn/) project file, compile and upload to your board
+  * In the Arduino IDE open the [CameraKNN.ino](https://github.com/8bitkick/Arduino_KNN_image/blob/master/CameraKNN/CameraKNN.ino) sketch, compile and upload to your board
 
   * In Google Chrome load index.html in the project folder. The sketch currently relies on Web Serial so is Chrome only at this time.
   
