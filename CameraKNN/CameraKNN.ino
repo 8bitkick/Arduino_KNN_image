@@ -11,8 +11,8 @@
 ///////////////////////////////////////////////////////////////////
 const int input_size = 3 * 10 * 8;
 KNNClassifier myKNN(input_size);
-const int number_examples = 12;
-const char* class_labels[] = {"Apple","Ginger beer","None"};
+const int number_examples = 8;
+const char* class_labels[] = {"Apple","Ginger beer"};
 const int example_classes[] = {0,0,0,0,1,1,1,1};
 const float example_images[][input_size] =
 {
