@@ -3,7 +3,7 @@ Simple machine vision using KNN on an [Arduino Nano BLE sense](https://store.ard
 
 An Arduino sketch captures image examples which can be imported to the KNN classifier and recognized. A web page that connects to the Arduino using web serial displays a visualization of this using p5js and auto generates Arduino code of the example image data array to paste back into your sketch.
 
-[Full write up here](https://blog.arduino.cc/2020/06/18/simple-machine-learning-with-arduino-knn/). 
+[Video summary here](https://twitter.com/DominicPajak/status/1277466634207162368?s=20). 
 
 ![capture](https://raw.githubusercontent.com/8bitkick/Arduino_KNN_image/master/images/capture.gif)
 
@@ -44,5 +44,24 @@ An Arduino sketch captures image examples which can be imported to the KNN class
   
   * Capture a few examples of each object
 
+### Classify some objects
 
+  * At the bottom of the webpage there is now some Arduino code containing your image data
   
+
+It should look a bit like this:
+
+```
+const int input_size = 3 * 10 * 8;
+KNNClassifier myKNN(input_size);
+const int number_examples = 1;
+const int example_classes[] = {0};
+const char* classes[] = {"Apple"};
+const float example_images[][input_size] =
+{
+{0xe7,0xff,0xff,0xff,0xfe,0xff,0xff...
+};
+```
+
+   * Copy this code and paste into your CameraKNN.ino sketch, replacing the section that says `REPLACE THIS SECTION`
+
