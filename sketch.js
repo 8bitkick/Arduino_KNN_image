@@ -123,7 +123,7 @@ function captureImage() {
   serialMonitor.textContent += "KNNClassifier myKNN(input_size);\n"
   serialMonitor.textContent += "const int number_examples = "+example_images.length+";\n"
   serialMonitor.textContent += "const int example_classes[] = {"+example_classes.join(",")+"};\n"
-  serialMonitor.textContent += "const char* classes[] = {"+(class_labels.map(x=>"\""+x+"\"")).join(",")+"};\n"
+  serialMonitor.textContent += "const char* class_labels[] = {"+(class_labels.map(x=>"\""+x+"\"")).join(",")+"};\n"
   serialMonitor.textContent += "const float example_images[][input_size] =\n{\n"+example_images.join(",\n")+"\n};\n"
 
   // Display thumbnail
