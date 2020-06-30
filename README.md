@@ -77,4 +77,10 @@ const float example_images[][input_size] =
    * Congratulations! Your Arduino is doing some image classification!
    
 ![classifying](https://raw.githubusercontent.com/8bitkick/Arduino_KNN_image/master/images/classifying.gif)
-   
+
+### Todo
+
+* Mark 1 - Add button to download image code
+
+* Mark 2 - Add example image data to flash memory instead :)
+
