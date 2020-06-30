@@ -1,5 +1,5 @@
-# Arduino_KNN_image
-Simple machine vision using KNN on an [Arduino Nano BLE sense](https://store.arduino.cc/usa/nano-33-ble-sense) and a OV767x low-cost VGA camera module.
+# Arduino_KNN_image (beta)
+Simple machine vision project using KNN on an [Arduino Nano BLE sense](https://store.arduino.cc/usa/nano-33-ble-sense) and a OV767x low-cost VGA camera module.
 
 An Arduino sketch captures image examples which can be imported to the KNN classifier and recognized. A web page that connects to the Arduino using web serial displays a visualization of this using p5js and auto generates Arduino code of the example image data array to paste back into your sketch.
 
