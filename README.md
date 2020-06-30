@@ -8,6 +8,11 @@ An Arduino sketch captures image examples which can be imported to the KNN class
 ![capture](https://raw.githubusercontent.com/8bitkick/Arduino_KNN_image/master/images/capture.gif)
 
 
+KNN is a classical machine learning algorithm which is easy to understand so a nice introduction to the topic.
+
+There are more powerful ML methods for image recognition on Arduino Nano BLE Sense including the TensorFlow Lite Micro person detection example which we will explore in a later article.
+
+
 ## Prerequisites 
   
   * Install the Arduino KNN library following these [instructions](https://blog.arduino.cc/2020/06/18/simple-machine-learning-with-arduino-knn/)
@@ -46,7 +51,7 @@ An Arduino sketch captures image examples which can be imported to the KNN class
 
 ### Classify some objects
 
-  * At the bottom of the webpage there is now some Arduino code containing your image data
+  * At the bottom of the webpage there is a console that now shows some Arduino code containing your image data
   
 
 It should look a bit like this:
@@ -63,5 +68,13 @@ const float example_images[][input_size] =
 };
 ```
 
-   * Copy this code and paste into your CameraKNN.ino sketch, replacing the section that says `REPLACE THIS SECTION`
-
+   * Copy this code from the web console
+   * Open the Arduino IDE
+   * Paste into your CameraKNN.ino sketch, replacing the section that says `REPLACE THIS SECTION`
+   * Compile and upload this code to your Arduino board
+   * Reload your webpage, and reconnect to the Arduino board using serial
+   * The webpage should show the Arduino image viewer and classifier output
+   * Congratulations! Your Arduino is doing some image classification!
+   
+![classifying](https://raw.githubusercontent.com/8bitkick/Arduino_KNN_image/master/images/classifying.gif)
+   
