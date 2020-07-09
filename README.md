@@ -37,7 +37,7 @@ There are more powerful ML methods for image recognition on Arduino Nano BLE Sen
   
   * The browser will [pop-up with another window to confirm](https://raw.githubusercontent.com/8bitkick/Arduino_KNN_image/master/images/connectSerial.gif) - select the Arduino Nano BLE Sense and press `Connect`
   
-### Capture some example images
+### Capture some example images of objects
 
   * You should see a pixelated view of what your camera is now seeing
   
@@ -49,7 +49,7 @@ There are more powerful ML methods for image recognition on Arduino Nano BLE Sen
   
   * Capture a few examples of each object
 
-### Classify some objects
+### Classify some images
 
   * At the bottom of the webpage there is a console that now shows some Arduino code containing your image data
   
